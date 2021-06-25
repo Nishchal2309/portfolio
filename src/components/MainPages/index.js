@@ -23,7 +23,7 @@ const MainPages = ({changeBackground, aboutImage, changeColor, headLine, img, al
                             </TextContainer>
                             <Introduction data-aos="fade-up">
                                  
-                                My name is Nishchal Bhardwaj, I was born in India.
+                                My name is Nishchal Bhardwaj, I was born in Indiaaaaaa.
                                 I came to Canada in 2016, where I first started coding in high school. During highschool
                                 I decided that I wanted to pursue Computer Science. 
                                 Currently, I am pursuing my BSc degree in Computer Science at the <p className="schoolStyles">University of Ontechu</p>
