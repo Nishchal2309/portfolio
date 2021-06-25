@@ -27,7 +27,7 @@ export const NavContainer = styled.div`
     display: flex;
     justify-self: space-between;
     height: 90px;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1.5rem;
     z-index: 1;
     position: sticky;
     /* max-width: 1100px; */
@@ -37,6 +37,7 @@ export const NavLogo = styled(LinkRouter)`
     color: white;
     justify-self: flex-start;
     cursor: pointer;
+    margin-bottom: 15px;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -44,6 +45,14 @@ export const NavLogo = styled(LinkRouter)`
     text-decoration: none;
     font-family: Aclonica;
     letter-spacing: 0.1rem;
+
+    @media screen and (max-width:950px){
+    font-size: 1.8rem;
+    }
+
+    @media screen and (max-width:700px){
+    font-size: 1.6rem;
+    }
 
 `
 
