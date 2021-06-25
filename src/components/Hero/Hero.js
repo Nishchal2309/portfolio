@@ -35,7 +35,7 @@ const Hero = () => {
 
                     
                 </ImageContainer>
-                <h1 className="testSth" >"Welcome,  I'm </h1> <TitleTest>Nishchal Bhardwaj</TitleTest><h1 className="testSth">"</h1>
+                <h1 className="testSth" >"Welcome,  I'm </h1> <TitleTest>Nishchal Bhardwajjjj</TitleTest><h1 className="testSth">"</h1>
                 <JobChanger>I am a {' '}
                     
                     <Typical className="styledJobs"
