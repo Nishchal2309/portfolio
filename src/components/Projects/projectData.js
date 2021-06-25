@@ -19,7 +19,7 @@ export const ProjectsData = [
         description: "This project was created for a school lab assignment. It provides information about movies and list of showtimes depending on what day is chosen from the calendar. Technologies used were JavaScript, JQuery, HTML, CSS and MongoDB for database component",
         image: movies,
         skillsUsed: "..",
-        githubLink: "https://github.com/CSCI3230U/lab_07_08_09_10-Nishchal2309"
+        githubLink: "https://github.com/NishchalPersonal/movie"
 
     
     },
@@ -29,7 +29,7 @@ export const ProjectsData = [
         description: "This project was created for a school lab assignment. This one is a basic skeleton of the sudoku game with the implementation of a game page and high score page. This was created using JQuery, HTML and CSS",
         image: sudoku,
         skillsUsed: "..",
-        githubLink: "https://github.com/CSCI3230U/lab_01_02_03-Nishchal2309"
+        githubLink: "https://github.com/NishchalPersonal/sudoku"
     
     }
 ]

@@ -94,22 +94,22 @@ export const ImageContainer = styled.div`
 `
 
 export const MyImage = styled.img`
-    width: 350px;
-    height: 250px;
-    border-radius: 50%;
+    width: 230px;
+    height: 340px;
+    border-radius: 20%;
     margin: 15px;
     animation: ${rotate} 3s linear;
     cursor: pointer;
 
     @media screen and (max-width: 900px){
-        width: 300px;
-        height: 200px;
+        width: 210px;
+        height: 280px;
 
 
     }
     @media screen and (max-width: 700px){
-        width: 250px;
-        height: 150px;
+        width: 165px;
+        height: 240px;
 
 
     }

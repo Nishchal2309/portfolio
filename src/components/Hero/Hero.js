@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react'
 import { HeroContainer, NestedContainer,AutoVideo, HContent, ImageContainer, TitleTest, MyImage, BtnContainer, ScrollDownBtn, HTag, JobChanger } from './HeroStyled'
 import BackVideo from '../../videos/video.mp4'
-import picture from '../../images/Nish.jpeg'
+import picture from '../../images/Nish2.jpeg'
 import {Spring} from 'react-spring'
 import Aos from 'aos'
 import "aos/dist/aos.css"
@@ -35,7 +35,7 @@ const Hero = () => {
 
                     
                 </ImageContainer>
-                <h1 className="testSth" >"Welcome,  I'm </h1> <TitleTest>Nishchal Bhardwajjjj</TitleTest><h1 className="testSth">"</h1>
+                <h1 className="testSth" >"Welcome,  I'm </h1> <TitleTest>Nishchal Bhardwaj</TitleTest><h1 className="testSth">"</h1>
                 <JobChanger>I am a {' '}
                     
                     <Typical className="styledJobs"

@@ -61,7 +61,7 @@ const Contact = () => {
                             <input className="inputStyled" type="text" name="subject" id="subject" placeholder="Enter Subject" onChange={e=>setSubject(e.target.value)}/>
                             <input className="inputStyled" type="text" name="email" id="email" placeholder="Enter Email" onChange={e=>setEmail(e.target.value)}/>
                             <textarea className="areaStyled" name="message" id="message" cols="30" rows="10" placeholde="Enter you message" onChange={e=> setMessageBox(e.target.value)}></textarea>
-                            <button className="sendButton" type="submit">Send message</button>
+                            <button className="sendButton" type="submit">Send</button>
                             {alert.show ? <h5 className="styleTheShitOutOfAlert">{alert.msg}</h5>:null}
                         </form>
                     </RightSide>
