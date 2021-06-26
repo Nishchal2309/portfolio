@@ -41,6 +41,7 @@ export const RightSide= styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    /* white-space: nowrap; */
 
 `
 export const Heading = styled.h1`
@@ -48,7 +49,7 @@ export const Heading = styled.h1`
     letter-spacing: 2px;
     font-weight: bold;
     align-items: center;
-    background-color: #ffe135;
+    background-color: cornflowerblue;
     color: white;
     /* text-decoration: underline solid #ffd700; */
     
@@ -56,4 +57,10 @@ export const Heading = styled.h1`
     font-size: 30px;
     }
 
+`
+
+export const MadatoryTitle = styled.h3`
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fc6c85;
 `

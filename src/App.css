@@ -60,6 +60,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: bold;
 }
 
 .inputStyled {
@@ -70,6 +71,9 @@
   font-size: 15px;
   border-radius: 2rem;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 input:hover {
   box-shadow: 0 5px 15px lightblue;
@@ -85,9 +89,10 @@ textarea:hover {
   .inputStyled {
     margin-top: 20px;
     margin-bottom: 20px;
+
     width: 200px;
-    height: 15px;
-    font-size: 13px;
+    height: 20px;
+    font-size: 16px;
     border-radius: 2rem;
     cursor: pointer;
   }
@@ -97,19 +102,21 @@ textarea:hover {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 200px;
-  height: 25px;
-  font-size: 15px;
+  height: 28px;
+  font-size: 18px;
   border-radius: 2rem;
+  font-weight: bold;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 500px) {
   .nameStyled {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100px;
-    height: 15px;
-    font-size: 13px;
+    width: 120px;
+    height: 20px;
+    font-size: 16px;
     border-radius: 2rem;
     cursor: pointer;
   }
@@ -122,6 +129,9 @@ textarea:hover {
   height: 250px;
   border-radius: 2rem;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 500px) {
@@ -130,7 +140,7 @@ textarea:hover {
     margin-bottom: 25px;
     width: 250px;
     height: 250px;
-    font-size: 13px;
+    font-size: 16px;
     border-radius: 2rem;
     cursor: pointer;
   }
@@ -339,4 +349,14 @@ textarea:hover {
 }
 .activeCurrentClass {
   border-top: 4px solid #ffd700;
+}
+
+.styleInline {
+  /* padding-left: 5px; */
+  /* padding-bottom: 5px; */
+  margin-top: 12px;
+
+  font-size: 0.7rem;
+  color: red;
+  position: fixed;
 }

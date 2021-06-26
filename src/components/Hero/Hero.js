@@ -20,7 +20,7 @@ const Hero = () => {
         setIsHover(!isHover);
     }
     return (
-        <HeroContainer>
+        <HeroContainer id="homepage">
             <NestedContainer>
                 <AutoVideo autoPlay loop muted src={BackVideo} type='video/mp4'>
 

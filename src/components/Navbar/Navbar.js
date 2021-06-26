@@ -12,12 +12,15 @@ const Navbar = ({toggleBtn}) => {
         <Nav autoPlay loop muted src={BackVideo} type='video/mp4'>
             
             <NavContainer >
-                <NavLogo to="/">RUDRA
-                </NavLogo>
-                <Link to="/">
+                <NavLogo to="homepage">RUDRA
+
                     <GiMagicTrident className="trident"></GiMagicTrident>
 
-                </Link>
+                </NavLogo>
+                {/* <Link to="homepage">
+                    <GiMagicTrident className="trident"></GiMagicTrident>
+
+                </Link> */}
                 <BurgerMenu onClick={toggleBtn}>
                     <FaBars/>
                 </BurgerMenu>
