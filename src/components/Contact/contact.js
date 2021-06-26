@@ -59,10 +59,10 @@ const Contact = () => {
                     <RightSide data-aos="fade-up">
                         <MadatoryTitle>All fields are mandatory</MadatoryTitle>
                         <form className="formStyled" onSubmit={sendEmails}>
-                            <div><input className="nameStyled" type="text" placeholder="Enter Name" name="name" onChange={e=>setName(e.target.value)}/><FaAsterisk className="styleInline"/></div>
-                            <div><input className="inputStyled" type="text" name="subject" id="subject" placeholder="Enter Subject" onChange={e=>setSubject(e.target.value)}/><FaAsterisk className="styleInline"/></div>
-                            <div><input className="inputStyled" type="text" name="email" id="email" placeholder="Enter Email" onChange={e=>setEmail(e.target.value)}/><FaAsterisk className="styleInline"/></div>
-                            <textarea className="areaStyled" name="message" id="message" cols="30" rows="10" placeholde="Enter you message" onChange={e=> setMessageBox(e.target.value)}></textarea>
+                            <div><input className="nameStyled" type="text" placeholder="Name" name="name" onChange={e=>setName(e.target.value)}/><FaAsterisk className="styleInline"/></div>
+                            <div><input className="inputStyled" type="text" name="subject" id="subject" placeholder="Subject" onChange={e=>setSubject(e.target.value)}/><FaAsterisk className="styleInline"/></div>
+                            <div><input className="inputStyled" type="text" name="email" id="email" placeholder="Email" onChange={e=>setEmail(e.target.value)}/><FaAsterisk className="styleInline"/></div>
+                            <textarea className="areaStyled" name="message" id="message" cols="30" rows="10" placeholder="Enter your message" onChange={e=> setMessageBox(e.target.value)}></textarea>
                             <button className="sendButton" type="submit">Send</button>
                             {alert.show ? <h5 className="styleTheShitOutOfAlert">{alert.msg}</h5>:null}
                         </form>
