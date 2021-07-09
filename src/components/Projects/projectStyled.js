@@ -39,6 +39,27 @@ export const ProjectTitle = styled.h1`
     animation: ${rotate} 3s linear;
 
 `
+export const ButtonContainer = styled.div`
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+`
+
+export const ButtonDiv = styled.div`
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1rem;
+    /* position: sticky; */
+
+    @media screen and (max-width:300px){
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+`
+
 
 export const PortfolioContainer = styled.div`
     color: white;
@@ -53,6 +74,35 @@ export const PortfolioContainer = styled.div`
     
 `
 
+export const DataBtn = styled.button`
+    margin: 0.7rem;
+    text-decoration: none;
+    position: sticky;
+    
+    animation: ${rotate} 3s linear;
+    margin-top: 15px;
+    color: white;
+    background: orange;
+    border-color: orange;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 0.1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px lightblue;
+    cursor: pointer;
+
+    &:hover{
+        color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px lightblue;
+    transition: 0.2s ease-in-out;
+    }
+`
+
+
 export const SingleProjectContainer = styled.div`
     
     position: relative;
@@ -65,9 +115,12 @@ export const SingleProjectContainer = styled.div`
     display: flex;
     justify-content: center;
         
+    @media screen and (max-width: 1245px){
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
 
-
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 950px){
         display: grid;
         grid-template-columns: 2fr 2fr;
         
@@ -136,8 +189,8 @@ margin-top: 15px;
   color: white;
   background: cornflowerblue;
   border-color: cornflowerblue;
-  height: 2rem;
-  width: 6rem;
+  height: 2.7rem;
+  width: 7rem;
   border-radius: 3em;
   font-weight: normal;
   text-transform: uppercase;
@@ -146,6 +199,7 @@ margin-top: 15px;
   letter-spacing: 2px;
   box-shadow: 2px 2px lightblue;
   cursor: pointer;
+  font-size: 20px;
 
   &:hover{
       color: rgba(255, 255, 255, 1);
@@ -153,4 +207,6 @@ margin-top: 15px;
   transition: 0.2s ease-in-out;
   }
 `
+
+
 

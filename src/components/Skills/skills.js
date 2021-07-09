@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import { SkillsSection, SkillContainer, Heading } from './skillStyled'
 import TestSkill from './testSkill'
 import {DiJavascript} from 'react-icons/di'
@@ -24,9 +25,11 @@ const Skills = () => {
         <>
             <SkillsSection id="skills" >
                 <Heading data-aos="fade-up">Skills</Heading>
-                {/* <a href="../../Resume/resume.pdf" download="resume.pdf" >
-                    <button className="resumeButton" data-aos="fade-up">Resume</button>
-                </a> */}
+                <Link to="/projects">
+                                    <button className="resumeButton" data-aos="fade-up">Projects</button>
+
+                </Link>
+                
 
 
                 <SkillContainer data-aos="fade-up">

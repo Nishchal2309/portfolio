@@ -17,10 +17,7 @@ const Navbar = ({toggleBtn}) => {
                     <GiMagicTrident className="trident"></GiMagicTrident>
 
                 </NavLogo>
-                {/* <Link to="homepage">
-                    <GiMagicTrident className="trident"></GiMagicTrident>
-
-                </Link> */}
+                
                 <BurgerMenu onClick={toggleBtn}>
                     <FaBars/>
                 </BurgerMenu>
@@ -43,12 +40,12 @@ const Navbar = ({toggleBtn}) => {
                         </Item>
                     </SingleItem>
                 </ManuItems>
-
+{/* 
                 <ProjectContainer>
                     <Link to="/projects">
                         <button className="projectBtn">Projects</button>
                     </Link>
-                </ProjectContainer>
+                </ProjectContainer> */}
             </NavContainer>
         </Nav>
 

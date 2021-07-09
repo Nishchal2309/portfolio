@@ -1,6 +1,7 @@
 import blackJack from '../../images/blackjack2.jpg'
 import movies from '../../images/movies.jpg'
 import sudoku from '../../images/sudoku.jpg'
+import comingSoon from '../../images/comingSoon.txt'
 
 export const ProjectsData = [
 
@@ -8,6 +9,7 @@ export const ProjectsData = [
         id: 1,
         title: "BlackJack",
         description: "This project was created as a group project for my school work. JavaScript, HTML, CSS, Pug was used for the front-end, Node.js for backend and SOLite to incorporate the database component",
+        category: "JavaScript",
         image: blackJack,
         skillsUsed: "JavaScript, HTML, CSS, Vue.js, SqLite",
         githubLink: "https://github.com/CSCI3230U/majorgroupproject-team-canal"
@@ -17,6 +19,7 @@ export const ProjectsData = [
         id: 2,
         title: "Movie database",
         description: "This project was created for a school lab assignment. It provides information about movies and list of showtimes depending on what day is chosen from the calendar. Technologies used were JavaScript, JQuery, HTML, CSS and MongoDB for database component",
+        category: "JavaScript",
         image: movies,
         skillsUsed: "..",
         githubLink: "https://github.com/NishchalPersonal/movie"
@@ -27,9 +30,47 @@ export const ProjectsData = [
         id: 3,
         title: "Sudoku",
         description: "This project was created for a school lab assignment. This one is a basic skeleton of the sudoku game with the implementation of a game page and high score page. This was created using JQuery, HTML and CSS",
+        category: "JavaScript",
         image: sudoku,
         skillsUsed: "..",
         githubLink: "https://github.com/NishchalPersonal/sudoku"
     
+    },
+
+    {
+        id: 4,
+        title: "Student Mangement System",
+        description: "This is a personal java project",
+        category: "Java",
+        image: comingSoon,
+        skillsUsed: "..",
+        githubLink: ""
+    
     }
+]
+
+export const ButtonNames = [
+    {   
+        id: 1,
+        value: 'All',
+        skillName:'All'
+    },
+    {   
+        id:2,
+        value: 'JavaScript',
+        skillName:'JavaScript'
+    },
+
+    {   
+        id:3,
+        value: 'Java',
+        skillName:'Java'
+    },
+
+    {   
+        id:4,
+        value: 'React',
+        skillName:'React'
+    }
+
 ]

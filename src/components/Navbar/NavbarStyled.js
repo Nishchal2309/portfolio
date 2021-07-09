@@ -24,6 +24,7 @@ export const Nav = styled.nav`
 `
 
 export const NavContainer = styled.div`
+
     display: flex;
     justify-self: space-between;
     height: 90px;
@@ -31,6 +32,7 @@ export const NavContainer = styled.div`
     z-index: 1;
     position: sticky;
     /* max-width: 1100px; */
+    align-items: center;
 
 `
 export const NavLogo = styled(LinkScroller)`
