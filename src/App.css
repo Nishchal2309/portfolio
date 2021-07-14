@@ -348,7 +348,6 @@ textarea:hover {
   color: royalblue;
 }
 .activeCurrentClass {
-  border-top: 4px solid #ffd700;
 }
 
 .styleInline {

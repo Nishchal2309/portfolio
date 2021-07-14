@@ -1,7 +1,8 @@
 import blackJack from '../../images/blackjack2.jpg'
 import movies from '../../images/movies.jpg'
 import sudoku from '../../images/sudoku.jpg'
-import comingSoon from '../../images/comingSoon.txt'
+import studentImage from '../../images/studentMangement.png'
+ 
 
 export const ProjectsData = [
 
@@ -13,7 +14,7 @@ export const ProjectsData = [
         image: blackJack,
         skillsUsed: "JavaScript, HTML, CSS, Vue.js, SqLite",
         githubLink: "https://github.com/CSCI3230U/majorgroupproject-team-canal"
-    
+
     },
     {
         id: 2,
@@ -24,7 +25,7 @@ export const ProjectsData = [
         skillsUsed: "..",
         githubLink: "https://github.com/NishchalPersonal/movie"
 
-    
+
     },
     {
         id: 3,
@@ -34,43 +35,43 @@ export const ProjectsData = [
         image: sudoku,
         skillsUsed: "..",
         githubLink: "https://github.com/NishchalPersonal/sudoku"
-    
+
     },
 
     {
         id: 4,
-        title: "Student Mangement System",
-        description: "This is a personal java project",
+        title: "Student Mangement",
+        description: "This is a personal java project. The program m allows you to add and remove students, update/search student information. MySQL database was used to store the information and the program communicates with the database using SQL queries. The GUI has been implenented using Java Swing",
         category: "Java",
-        image: comingSoon,
+        image: studentImage,
         skillsUsed: "..",
-        githubLink: ""
-    
+        githubLink: "https://github.com/Nishchal2309/StudentManagementSystem"
+
     }
 ]
 
 export const ButtonNames = [
-    {   
+    {
         id: 1,
         value: 'All',
-        skillName:'All'
+        skillName: 'All'
     },
-    {   
-        id:2,
+    {
+        id: 2,
         value: 'JavaScript',
-        skillName:'JavaScript'
+        skillName: 'JavaScript'
     },
 
-    {   
-        id:3,
+    {
+        id: 3,
         value: 'Java',
-        skillName:'Java'
+        skillName: 'Java'
     },
 
-    {   
-        id:4,
+    {
+        id: 4,
         value: 'React',
-        skillName:'React'
+        skillName: 'React'
     }
 
 ]

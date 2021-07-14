@@ -92,7 +92,7 @@ const Projects = () => {
                                     <ProjectImage src={image} alt="">
                                     </ProjectImage>
                                     <ProjectName>{title}</ProjectName>
-                                    <a href={githubLink}>
+                                    <a  onClick={()=> window.open(githubLink, "_blank")}>
                                         <button className="gitBtn">Source</button>
                                     </a>
 
