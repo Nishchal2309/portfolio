@@ -30,7 +30,7 @@ export const FooterColumn = styled.div`
 
 export const CreateAnnotation = styled.p`
     color: white;
-    font-size: small;
+    font-size: 13px;
     margin-bottom: 1rem;
     letter-spacing: 2px;
 
