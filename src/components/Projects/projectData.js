@@ -2,6 +2,7 @@ import blackJack from '../../images/blackjack2.jpg'
 import movies from '../../images/movies.jpg'
 import sudoku from '../../images/sudoku.jpg'
 import studentImage from '../../images/studentMangement.png'
+import comingSoon from '../../images/comingSoon.txt'
  
 
 export const ProjectsData = [
@@ -47,7 +48,18 @@ export const ProjectsData = [
         skillsUsed: "..",
         githubLink: "https://github.com/Nishchal2309/StudentManagementSystem"
 
+    },
+    {
+        id: 5,
+        title: "Quote Generator",
+        description: "This is a personal react project",
+        category: "React",
+        image: comingSoon,
+        skillsUsed: "..",
+        githubLink: "https://github.com/Nishchal2309/"
+
     }
+    
 ]
 
 export const ButtonNames = [
