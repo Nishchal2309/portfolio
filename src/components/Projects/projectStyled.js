@@ -115,7 +115,7 @@ export const SingleProjectContainer = styled.div`
     display: flex;
     justify-content: center;
         
-    @media screen and (max-width: 1245px){
+    @media screen and (max-width: 1400px){
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
     }
