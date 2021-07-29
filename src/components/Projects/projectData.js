@@ -66,12 +66,12 @@ export const ButtonNames = [
         id: 3,
         value: 'Java',
         skillName: 'Java'
-    },
-
-    {
-        id: 4,
-        value: 'React',
-        skillName: 'React'
     }
+
+    // {
+    //     id: 4,
+    //     value: 'React',
+    //     skillName: 'React'
+    // }
 
 ]

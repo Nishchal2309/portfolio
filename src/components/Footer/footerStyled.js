@@ -27,3 +27,15 @@ export const FooterColumn = styled.div`
     padding: 3rem;
 
 `
+
+export const CreateAnnotation = styled.p`
+    color: white;
+    font-size: small;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+
+`
+export const IconHolder = styled.h1`
+
+`
+

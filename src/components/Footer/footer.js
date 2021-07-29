@@ -1,9 +1,11 @@
 import React from 'react'
-import { MainFooter, FooterContainer, FooterRow, FooterColumn, Row1 } from './footerStyled'
+import { MainFooter, FooterContainer, FooterRow, FooterColumn, Row1, CreateAnnotation, IconHolder } from './footerStyled'
 import {AiFillInstagram} from 'react-icons/ai'
 import {SiLinkedin} from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import {AiFillGithub} from  'react-icons/ai'
+import {FaReact} from 'react-icons/fa'
+import {RiBearSmileFill} from 'react-icons/ri'
 
 
 const Footer = () => {
@@ -39,6 +41,8 @@ const Footer = () => {
 
                         </FooterColumn>
                         <Row1>
+                            
+                            <CreateAnnotation ><IconHolder><a href="https://reactjs.org/docs/getting-started.html"><FaReact className="styleIcon"/></a></IconHolder>This website was created using React js <RiBearSmileFill className="styleSmiley"/> </CreateAnnotation>
                                 <p className="classPrivacy">
                                     &copy;{new Date().getFullYear()} Nishchal Bhardwaj INC | All rights reserved
                                 </p>

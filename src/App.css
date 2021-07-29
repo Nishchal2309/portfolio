@@ -359,3 +359,17 @@ textarea:hover {
   color: red;
   position: fixed;
 }
+
+.styleIcon {
+  color: white;
+}
+
+.styleIcon:hover {
+  color: cornflowerblue;
+  transition: 0.3s ease-in-out;
+}
+
+.styleSmiley {
+  color: gold;
+  font-size: 18px;
+}

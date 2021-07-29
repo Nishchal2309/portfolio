@@ -1,12 +1,15 @@
 import './App.css';
 import styled from 'styled-components'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 
 import Main from './pages'
 import Projects from './pages/projects';
 
 function App() {
+  useEffect(()=>{
+    document.title = "NishchalRUDRA"
+  }, [])
   return (
     <Router>
       <Switch>
