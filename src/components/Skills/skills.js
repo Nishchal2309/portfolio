@@ -33,9 +33,9 @@ const Skills = () => {
 
 
                 <SkillContainer data-aos="fade-up">
-                    <TestSkill  img={<DiJavascript />} skillName={"JavaScript"} progress={"85%"} widthBar={85}/>
+                    <TestSkill  img={<DiJavascript />} skillName={"JavaScript"} progress={"80%"} widthBar={80}/>
                     <TestSkill img={<FaReact/>} skillName={"React JS"} progress={"80%"} widthBar={80}/>
-                    <TestSkill img={<SiSpring/>} skillName={"Spring Boot"} progress={"70%"} widthBar={70}/>
+                    <TestSkill img={<SiSpring/>} skillName={"Spring Boot"} progress={"50%"} widthBar={50}/>
                     <TestSkill img={<FaJava/>} skillName={"Java"} progress={"80%"} widthBar={80}/>
                     <TestSkill img={<FaNodeJs/>} skillName={"Node JS"} progress={"70%"} widthBar={70}/>
                     <TestSkill img={<DiCss3/>} skillName={"CSS"} progress={"85%"} widthBar={85}/>
